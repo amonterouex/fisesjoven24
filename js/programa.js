@@ -53,24 +53,24 @@ function addParticipant(table, participante){
 
 const participantes =  [
         {
-         "NOMBRE": "Marta Pedrosa García-Moreno",
-         "TITULO": "Active transport in confinement",
+         "NOMBRE": "Miguel Aguilar Janita",
+         "TITULO": "Predicting small field chaos in spin glasses from the ultrametric tree and comparison with numerical simulations",
          "SLOT": 1,
-         "NOMBRE_SLOT": "Biophysics",
+         "NOMBRE_SLOT": " ",
          "HORA": "15:30:00",
          "NUMERO": 1
         },
         {
-         "NOMBRE": "Marina Fernández Ruz",
-         "TITULO": "A theoretical approach to the complex chemical evolution of phosphorus in the interstellar medium",
+         "NOMBRE": "Manuel Mayo León",
+         "TITULO": "Bacterial chemotaxis considering memory effects",
          "SLOT": 1,
-         "NOMBRE_SLOT": "Biophysics",
+         "NOMBRE_SLOT": " ",
          "HORA": "15:40:00",
          "NUMERO": 2
         },
         {
-         "NOMBRE": "Belén Serrano Antón",
-         "TITULO": "Artificial intelligence for coronary structure segmentation",
+         "NOMBRE": "Miguel Jesús Torrejón Ríos",
+         "TITULO": "Determinación de la línea de disociación y del driving force para la nucleación del hidrato de nitrógeno mediante simulación molecular. Estudio del efecto de la ocupación múltiple",
          "SLOT": 1,
          "NOMBRE_SLOT": "Biophysics",
          "HORA": "15:50:00",
@@ -84,32 +84,31 @@ const participantes =  [
             "HORA": "16:00:00",
             "NUMERO": "-"
            },
-           {
-            "NOMBRE": "Pau Esteve Ferrer",
-            "TITULO": "Distinguishing chaos from noise: a deep learning approach to nonlinear time series analysis",
-            "SLOT": 2,
-            "NOMBRE_SLOT": "Miscelánea",
-            "HORA": "16:10:00",
-            "NUMERO": 4
-           },
-           {
-            "NOMBRE": "Natalia Ruiz Pino",
-            "TITULO": "Entropy reduction and energetic balance in feedback ratchets",
-            "SLOT": 2,
-            "NOMBRE_SLOT": "Information theory",
-            "HORA": "16:20:00",
-            "NUMERO": 5
-           },
-           
-           {
-            "NOMBRE": "Jesús María Marcos Merino",
-            "TITULO": "Radial spreading of a thin-film model",
-            "SLOT": 2,
-            "NOMBRE_SLOT": "Miscelánea",
-            "HORA": "16:30:00",
-            "NUMERO": 6
-           },
         {
+        "NOMBRE": "Manuel Miranda Barrado",
+        "TITULO": "Indirect social influence and diffusion of innovations: An experimental approach",
+        "SLOT": 2,
+        "NOMBRE_SLOT": " ",
+        "HORA": "16:10:00",
+        "NUMERO": 4
+        },
+        {
+        "NOMBRE": "Sara Oliver",
+        "TITULO": "Numerical methods for quasi-stationary distributions",
+        "SLOT": 2,
+        "NOMBRE_SLOT": " ",
+        "HORA": "16:20:00",
+        "NUMERO": 5
+        },
+        {
+        "NOMBRE": "Fernando Carreño Navas",
+        "TITULO": "Stability of solitons in the nonlinear Schrödinger equation with dissipation and parametric force",
+        "SLOT": 2,
+        "NOMBRE_SLOT": " ",
+        "HORA": "16:30:00",
+        "NUMERO": 6
+        },
+            {
             "NOMBRE": " ",
             "TITULO": "Preguntas slot 2",
             "SLOT": "-",
@@ -118,26 +117,26 @@ const participantes =  [
             "NUMERO": "-"
            },
         {
-         "NOMBRE": "Alberto Martinez Serra",
-         "TITULO": "Size-dependent glassy kinetics of nanoparticle-protein corona complexes",
+         "NOMBRE": "Pau Esteve Ferrer",
+         "TITULO": "Exploring Delay Propagation in Air Transport using Temporal Networks",
          "SLOT": 3,
-         "NOMBRE_SLOT": "Quantum",
+         "NOMBRE_SLOT": " ",
          "HORA": "16:50:00",
          "NUMERO": 7
         },
         {
-         "NOMBRE": "José Antonio Almanza Marrero ",
-         "TITULO": "Coherence for quantum enhanced thermodynamic performance in steady-state quantum thermal machines",
+         "NOMBRE": "Mariona Fucho Rius",
+         "TITULO": "Studying synergistic effects in critical slowing down for mushroom bifurcations",
          "SLOT": 3,
-         "NOMBRE_SLOT": "Quantum",
+         "NOMBRE_SLOT": " ",
          "HORA": "17:00:00",
          "NUMERO": 8
         },
         {
-         "NOMBRE": "Juan Bautista Grau Climent",
-         "TITULO": "Mejora de la estabilidad para el sistema dinámico del juego cuántico de Cournot",
+         "NOMBRE": "Jesús María Marcos Merino",
+         "TITULO": "Study of oil extraction from an emulsion under the action of a surface acoustic wave (SAW) by means of an MC simulation.",
          "SLOT": 3,
-         "NOMBRE_SLOT": "Quantum",
+         "NOMBRE_SLOT": " ",
          "HORA": "17:10",
          "NUMERO": 9
         },
@@ -158,26 +157,26 @@ const participantes =  [
             "NUMERO": "-"
            },
         {
-         "NOMBRE": "Miguel Ibáñez García",
-         "TITULO": "Anomalous relaxation phenomena in trapped colloids: heating is faster than cooling",
+         "NOMBRE": "Jaume Llabrés Rubio",
+         "TITULO": "Universality of noise-induced transitions in nonlinear voter models",
          "SLOT": 4,
-         "NOMBRE_SLOT": "granular &amp; colloidal systems",
+         "NOMBRE_SLOT": " ",
          "HORA": "17:50:00",
          "NUMERO": 10
         },
         {
-         "NOMBRE": "Manuel Mayo León",
-         "TITULO": "Dynamics of a confined and ultraconfined vibrated granuar system",
+         "NOMBRE": "Francesca Dilisante",
+         "TITULO": "Epidemics in metapopulations with contagions during reaction and diffusion phases.",
          "SLOT": 4,
-         "NOMBRE_SLOT": "granular &amp; colloidal systems",
+         "NOMBRE_SLOT": " ",
          "HORA": "18:00",
          "NUMERO": 11
         },
         {
-         "NOMBRE": "Alejandro Almodovar ",
-         "TITULO": "Interacting particle systems with mobility and demographic dynamics as biological models",
+         "NOMBRE": "Pablo Gallarta Sáenz",
+         "TITULO": "A quantum-like approach to unveil the limits of compartmental epidemiological models.",
          "SLOT": 4,
-         "NOMBRE_SLOT": "granular &amp; colloidal systems",
+         "NOMBRE_SLOT": " ",
          "HORA": "18:10:00",
          "NUMERO": 12
         },
@@ -189,30 +188,33 @@ const participantes =  [
             "HORA": "18:20:00",
             "NUMERO": "-"
            },
-           {
-            "NOMBRE": "Miguel Angel González Casado",
-            "TITULO": "The role of structural balance in personal networks dynamics",
-            "SLOT": 5,
-            "NOMBRE_SLOT": "socio-physics",
-            "HORA": "18:30:00",
-            "NUMERO": 13
-           },
-           {
-            "NOMBRE": "David Abella Bujalance",
-            "TITULO": "Ordering dynamics and aging in Threshold models",
-            "SLOT": 5,
-            "NOMBRE_SLOT": "socio-physics",
-            "HORA": "18:40:00",
-            "NUMERO": 14
-           },
-           {
-            "NOMBRE": "Diego Escribano Gómez",
-            "TITULO": "Exploring the complexities of the social world",
-            "SLOT": 5,
-            "NOMBRE_SLOT": "socio-physics",
-            "HORA": "18:50:00",
-            "NUMERO": 15
-           },
+        {
+        "NOMBRE": "Gianluca Manzan",
+        "TITULO": "Efficiency limits in Restricted Boltzmann Machines",
+        "SLOT": 5,
+        "NOMBRE_SLOT": "socio-physics",
+        "HORA": "18:30:00",
+        "NUMERO": 13
+        },
+        {
+        "NOMBRE": "David Ortiz del Campo",
+        "TITULO": "Anticipated synchronization in systems with distributed delay",
+        "SLOT": 5,
+        "NOMBRE_SLOT": "socio-physics",
+        "HORA": "18:40:00",
+        "NUMERO": 14
+        },
+        {
+        "NOMBRE": "Roger Bellido Peralta",
+        "TITULO": "Hydration/solvation study of a Polyethylenimine chain confined inside a graphitic pore.",
+        "SLOT": 5,
+        "NOMBRE_SLOT": "socio-physics",
+        "HORA": "18:50:00",
+        "NUMERO": 15
+        },
+        
+        
+        
         {
             "NOMBRE": " ",
             "TITULO": "Preguntas slot 5",
@@ -228,26 +230,26 @@ const participantes =  [
 
 const participantes2 = [
     {
-        "NOMBRE": "Santiago Lamata Otín",
-        "TITULO": "Collapse transition in contagion dynamics subject to detection with limited resources",
+        "NOMBRE": "Rubén Rodríguez Casañ",
+        "TITULO": "Emerging collaboration patterns within the ATLAS experiment at CERN",
         "SLOT": 6,
-        "NOMBRE_SLOT": "Epidemics",
+        "NOMBRE_SLOT": " ",
         "HORA": "15:30:00",
         "NUMERO": 16
        },
        {
-        "NOMBRE": "Àlex Giménez Romero",
-        "TITULO": "Vector-borne diseases with non-stationary vector populations: the case of growing and decaying populations",
+        "NOMBRE": "Juan de Gregorio",
+        "TITULO": "Language relations through syntactic distances: An information-theoretic approach",
         "SLOT": 6,
-        "NOMBRE_SLOT": "Epidemics",
+        "NOMBRE_SLOT": " ",
         "HORA": "15:40:00",
         "NUMERO": 17
        },
        {
-        "NOMBRE": "Javier Aguilar Sánchez",
-        "TITULO": "Endemic infectious states below the epidemic threshold and beyond herd immunity",
+        "NOMBRE": "Caterina Landi",
+        "TITULO": "Self-Assembly of Active Bifunctional Patchy Particles",
         "SLOT": 6,
-        "NOMBRE_SLOT": "Epidemics",
+        "NOMBRE_SLOT": " ",
         "HORA": "15:50:00",
         "NUMERO": 18
        },
@@ -259,31 +261,31 @@ const participantes2 = [
            "HORA": "16:00:00",
            "NUMERO": "-"
           },
-          {
-            "NOMBRE": "Mar Cuevas Blanco",
-            "TITULO": "The architecture of multifunctional ecological networks",
-            "SLOT": 7,
-            "NOMBRE_SLOT": "complex networks",
-            "HORA": "16:10:00",
-            "NUMERO":19
-           },
-           {
-            "NOMBRE": "Gonzalo Contreras Aso",
-            "TITULO": "The transition to synchronization of networked systems",
-            "SLOT": 7,
-            "NOMBRE_SLOT": "complex networks",
-            "HORA": "16:20:00",
-            "NUMERO": 20
-           },
-           {
-            "NOMBRE": "Beatriz Arregui García",
-            "TITULO": "Disentangling epidemics: a multiplex structure perspective",
-            "SLOT": 7,
-            "NOMBRE_SLOT": "complex networks",
-            "HORA": "16:30:00",
-            "NUMERO": 21
-           },
-       {
+        {
+        "NOMBRE": "Carles Martorell",
+        "TITULO": "Chaos and criticality in non-reciprocal networks",
+        "SLOT": 7,
+        "NOMBRE_SLOT": " ",
+        "HORA": "16:10:00",
+        "NUMERO":19
+        },
+        {
+        "NOMBRE": "Carlos Sebastián Monago",
+        "TITULO": "Parameter Estimation for Coarse-Grained Models via Self-Averaging",
+        "SLOT": 7,
+        "NOMBRE_SLOT": " ",
+        "HORA": "16:20:00",
+        "NUMERO": 20
+        },
+        {
+        "NOMBRE": "Mar Cuevas Blanco",
+        "TITULO": "On the structure of species-function participation in multilayer ecological networks",
+        "SLOT": 7,
+        "NOMBRE_SLOT": " ",
+        "HORA": "16:30:00",
+        "NUMERO": 21
+        },
+            {
            "NOMBRE": " ",
            "TITULO": "Preguntas slot 7",
            "SLOT": "-",
@@ -292,26 +294,26 @@ const participantes2 = [
            "NUMERO": "-"
           },
        {
-        "NOMBRE": "Miguel Camarillo Sánchez ",
-        "TITULO": "Study of the effect of crystal lattice mismatch on heterogeneous ice nucleation",
+        "NOMBRE": "David González Calatayud",
+        "TITULO": "Smart Magnetic Microrobots Learn to Roll with Reinforcement Learning",
         "SLOT": 8,
-        "NOMBRE_SLOT": "molecular physics",
+        "NOMBRE_SLOT": " ",
         "HORA": "16:50:00",
         "NUMERO": 22
        },
        {
-        "NOMBRE": "Roger Bellido Peralta",
-        "TITULO": "Water methanol mixture confined in a graphene slit pore",
+        "NOMBRE": "Sara Ghivarello",
+        "TITULO": "Coevolution of individual perception and cooperative behavior in the Norm Compliance Dilemma",
         "SLOT": 8,
-        "NOMBRE_SLOT": "molecular physics",
+        "NOMBRE_SLOT": " ",
         "HORA": "17:00:00",
         "NUMERO": 23
        },
        {
-        "NOMBRE": "Alejandro Sáinz Agost",
-        "TITULO": "End pulled polymer translocation under time dependent driving",
+        "NOMBRE": "Javier Molina Hernández",
+        "TITULO": "An Evolutionary Model to Unravel Antibiotic Sequential Therapies",
         "SLOT": 8,
-        "NOMBRE_SLOT": "molecular physics",
+        "NOMBRE_SLOT": " ",
         "HORA": "17:10:00",
         "NUMERO": 24
        },
@@ -332,26 +334,26 @@ const participantes2 = [
            "NUMERO": "-"
           },
        {
-        "NOMBRE": "Samuel Blázquez Fernández",
-        "TITULO": "Three phase equilibria of the methane hydrate in NaCl solutions: a simulation study",
+        "NOMBRE": "Alejandro Almodóvar del Pozo",
+        "TITULO": "Interacting particle systems with mobility and demographic dynamics as biological models",
         "SLOT": 9,
-        "NOMBRE_SLOT": "phase transitions",
+        "NOMBRE_SLOT": " ",
         "HORA": "17:50:00",
         "NUMERO": 25
        },
        {
-        "NOMBRE": "Miguel Aguilar Janita",
-        "TITULO": "Numerical evidence for a phase transition in the six dimensional Ising spin glass on a field",
+        "NOMBRE": "Samuel Martínez Alcalá",
+        "TITULO": "Non-equilibrium dynamics of viral quasispecies under Darwinian evolution",
         "SLOT": 9,
-        "NOMBRE_SLOT": "phase transitions",
+        "NOMBRE_SLOT": " ",
         "HORA": "18:00:00",
         "NUMERO": 26
        },
        {
-        "NOMBRE": "Ylann ROUZAIRE",
-        "TITULO": "Active defects unbind and superdiffuse",
+        "NOMBRE": "Àlex Giménez Romero",
+        "TITULO": "Population structure plays a key role in ecosystem stability",
         "SLOT": 9,
-        "NOMBRE_SLOT": "phase transitions",
+        "NOMBRE_SLOT": " ",
         "HORA": "18:10:00",
         "NUMERO": 27
        },
@@ -365,24 +367,24 @@ const participantes2 = [
           },
         
           {
-            "NOMBRE": "Gregorio García Valladares",
-            "TITULO": "Stochastic resetting with refractory period through the lens of pathway formulation",
+            "NOMBRE": "Marina Fernández Ruz",
+            "TITULO": "Autocatalytic chemical networks in the origin of life",
             "SLOT": 10,
             "NOMBRE_SLOT": "Miscelánea",
             "HORA": "18:30:00",
             "NUMERO": 28
            },
            {
-            "NOMBRE": "Juan Ignacio De Gregorio",
-            "TITULO": "Entropy estimation for Markovian sequences",
+            "NOMBRE": "Gorka Buenvarón Campo",
+            "TITULO": "Game theory to implement conservation strategies on marine life",
             "SLOT": 10,
             "NOMBRE_SLOT": "Information theory",
             "HORA": "18:40",
             "NUMERO": 29
            },
            {
-            "NOMBRE": "Irene Ferri Condeminas",
-            "TITULO": "Three-State Opinion Model with Mobile Agents",
+            "NOMBRE": "Alberto Martinez Serra",
+            "TITULO": "Characterizing the Hard and Soft Nanoparticle-Protein Corona with Multilayer Adsorption",
             "SLOT": 10,
             "NOMBRE_SLOT": "Information theory",
             "HORA": "18:50",
