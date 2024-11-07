@@ -85,8 +85,8 @@ const participantes =  [
             "NUMERO": "-"
            },
         {
-        "NOMBRE": "Manuel Miranda Barrado",
-        "TITULO": "Indirect social influence and diffusion of innovations: An experimental approach",
+        "NOMBRE": "David González Calatayud",
+        "TITULO": "Smart Magnetic Microrobots Learn to Roll with Reinforcement Learning",
         "SLOT": 2,
         "NOMBRE_SLOT": " ",
         "HORA": "16:10:00",
@@ -294,8 +294,8 @@ const participantes2 = [
            "NUMERO": "-"
           },
        {
-        "NOMBRE": "David González Calatayud",
-        "TITULO": "Smart Magnetic Microrobots Learn to Roll with Reinforcement Learning",
+        "NOMBRE": "Manuel Miranda Barrado",
+        "TITULO": "Indirect social influence and diffusion of innovations: An experimental approach",
         "SLOT": 8,
         "NOMBRE_SLOT": " ",
         "HORA": "16:50:00",
